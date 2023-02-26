@@ -109,6 +109,10 @@ form {
 	flex-direction: column;
 }
 
+label {
+	color: var(--gray);
+}
+
 input {
 	font-size: 1.8rem;
 	padding: 5px;
