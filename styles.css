@@ -26,6 +26,7 @@
 body {
 	background-color: rgb(30, 30, 30);
 	height: 100vh;
+	height: 100svh; /* for mobile */
 	display: flex;
 }
 
