@@ -9,6 +9,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -114,4 +115,14 @@ input:required + span::before {
 	font-weight: bold;
 	top: -45px;
 	right: 0px;
+}
+
+button {
+	font-size: 2.1rem;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	padding: var(--space-xsmall) var(--space-small);
+	background-color: rgb(30, 30, 30);
+	border-radius: 10px;
+	border: none;
 }
