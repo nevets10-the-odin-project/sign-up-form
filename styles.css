@@ -10,6 +10,7 @@
 	padding: 0;
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
+	color: var(--black);
 }
 
 :root {
@@ -17,6 +18,9 @@
 	--space-xsmall: 15px;
 	--space-small: 25px;
 	--space-medium: 50px;
+	--black: rgb(0, 0, 0);
+	--gray: rgb(51, 51, 51);
+	--red: rgb(255, 0, 0);
 }
 
 body {
@@ -27,9 +31,14 @@ body {
 
 h1 {
 	font-family: "top_secret";
-	color: red;
+	color: var(--red);
 	font-size: clamp(3rem, 1.2394rem + 5.6338vw, 8rem);
 	font-weight: 100;
+}
+
+a {
+	text-decoration: none;
+	color: var(--gray);
 }
 
 .sidebar {
@@ -127,7 +136,7 @@ button {
 	font-weight: bold;
 	color: rgb(255, 255, 255);
 	padding: var(--space-xsmall) var(--space-small);
-	background-color: rgb(30, 30, 30);
+	background-color: var(--gray);
 	border-radius: 10px;
 	border: none;
 }
