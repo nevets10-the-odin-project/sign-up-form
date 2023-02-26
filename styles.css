@@ -1,3 +1,42 @@
+@font-face {
+	font-family: "top_secret";
+	src: url("./fonts/top_secret.woff2") format("woff2"),
+		url("./fonts/top_secret.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
 body {
-	background-color: burlywood;
+	background-color: rgb(30, 30, 30);
+	height: 100vh;
+	display: flex;
+}
+
+h1 {
+	font-family: "top_secret";
+	color: red;
+	font-size: 10rem;
+	font-weight: 100;
+}
+
+.sidebar {
+	background-image: url("./img/spam.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	flex: 1;
+}
+
+.sidebar-content {
+	background-color: rgb(0, 0, 0, 0.65);
+	margin-top: 25vh;
+	padding: 25px;
 }
