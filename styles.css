@@ -94,3 +94,7 @@ form {
 	display: flex;
 	flex-direction: column;
 }
+
+input {
+	font-size: 1.8rem;
+}
