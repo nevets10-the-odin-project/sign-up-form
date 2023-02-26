@@ -98,6 +98,7 @@ form {
 
 input {
 	font-size: 1.8rem;
+	padding: 5px;
 }
 
 input:focus-visible {
@@ -113,7 +114,7 @@ input:required + span::before {
 	content: "required";
 	font-size: 1.6rem;
 	font-weight: bold;
-	top: -45px;
+	top: -54px;
 	right: 0px;
 }
 
