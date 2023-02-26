@@ -102,3 +102,16 @@ input {
 input:focus-visible {
 	outline-color: rgb(0, 128, 255);
 }
+
+input + span {
+	position: relative;
+}
+
+input:required + span::before {
+	position: absolute;
+	content: "required";
+	font-size: 1.6rem;
+	font-weight: bold;
+	top: -45px;
+	right: 0px;
+}
