@@ -60,12 +60,16 @@ h1 {
 	gap: 25px;
 }
 
+.main-text {
+	padding-right: var(--space-medium);
+}
+
 .main-text > :last-child {
 	margin-top: var(--space-small);
 }
 
 .main-item {
-	padding-left: 50px;
+	padding-left: var(--space-medium);
 }
 
 form {
