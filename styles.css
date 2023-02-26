@@ -56,9 +56,14 @@ h1 {
 	gap: 25px;
 }
 
+.main-item {
+	padding-left: 50px;
+}
+
 form {
 	display: flex;
 	flex-direction: column;
+	gap: 25px;
 }
 
 .form-input {
