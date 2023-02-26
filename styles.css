@@ -98,3 +98,7 @@ form {
 input {
 	font-size: 1.8rem;
 }
+
+input:focus-visible {
+	outline-color: rgb(0, 128, 255);
+}
