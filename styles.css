@@ -36,7 +36,7 @@ h1 {
 	background-image: url("./img/spam.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
-	flex: 1;
+	flex: 1 1 auto;
 }
 
 .sidebar-content {
@@ -46,7 +46,7 @@ h1 {
 }
 
 .main {
-	flex: 1.5;
+	flex: 2 1 auto;
 	font-size: 2.1rem;
 	background-color: rgb(249, 250, 251);
 	display: flex;
