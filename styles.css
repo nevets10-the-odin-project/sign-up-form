@@ -44,7 +44,6 @@ a {
 .sidebar {
 	background-image: url("./img/spam.jpg");
 	background-repeat: no-repeat;
-	background-size: contain;
 	flex: 1 1 auto;
 }
 
