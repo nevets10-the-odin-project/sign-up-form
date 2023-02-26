@@ -100,7 +100,8 @@ form {
 .input-item {
 	display: flex;
 	flex-wrap: wrap;
-	gap: var(--space-medium);
+	column-gap: var(--space-medium);
+	row-gap: var(--space-xsmall);
 }
 
 .input-item > div {
