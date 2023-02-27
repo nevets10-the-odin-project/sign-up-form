@@ -123,6 +123,10 @@ input:focus-visible {
 	outline-color: rgb(0, 128, 255);
 }
 
+input:invalid {
+	outline-color: var(--red);
+}
+
 input + span {
 	position: relative;
 }
